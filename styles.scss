@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'); 
+$background-color: #E5E5E5;
+$background-footer:#F5EDED;
+$font-color: #fafafa; /*background and font are meant to be the same*/
+$font:'Inter', sans-serif;
+
+*{
+font-family: $font;
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+nav{
+    height: 5vh;
+    width:auto;
+}
+.nav__container{
+    display:none;
+}
+
+header{
+    margin:5%;
+    height:30rem;
+    width:auto;
+    
+    .header__container {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    
+        .header__title {
+            font-weight: 500;
+            font-size: 1.25rem;
+            
+        }
+    
+        .header__intro{
+            font-size: 4rem;
+            font-weight:600;
+        }
+        
+        .header__img{
+            display:none;
+        }
+    
+        
+}
+

@@ -28,3 +28,12 @@ TUES ALL DAY    -8 HOURS
     BUFFER DAY FOR BASIC // FINISH ADVANCED
 
  WORST CASE BASIC TO BE FINISHED BY TUES LUNCH
+
+
+plan for css
+-identify what vaibles i can use
+-download fonts
+-* commands
+-start with mobile view
+-start from the top and do one at a time 
+-6 sessions so an average of 1 hour on each
