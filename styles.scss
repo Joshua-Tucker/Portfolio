@@ -7,6 +7,8 @@ $lineheight: 1.8rem;
 $font-text:1.125rem;
 $font-text-small:1rem;
 $font-text-smallest:0.9rem;
+$font-color-footer: #D72323;
+
 
 *{
 font-family: $font;
@@ -100,7 +102,7 @@ header{
 }
 
 .technical{
-    height:20rem;
+    height:45rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -133,61 +135,52 @@ header{
           "technical__spring technical__java technical__react"
           "technical__bem technical__scss technical__script-java"
           "technical__css technical__html technical__git";
-        
-       
+           
       }
       
 }
 
 .projects{
-    margin:40rem 0rem;
-    height:50rem;
-    .projects__packet-one-image{
+    margin-top: 3rem;
+    height:205rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+
+    .projects__image {
         height:auto;
         width:100%;
+        margin: 0.75rem 0rem;
     }
-    .projects__packet-one-desc{
-        height:auto;
-        width:100%;
+    .projects__packet{
+        margin: 2.5rem 0rem;
     }
-    .projects__packet-two-image{
-        height:auto;
-        width:100%;
+}
+
+.footer{
+    height:12rem;
+    width:100%;
+    background-color: $background-footer;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   
+
+    .footer__icons{
+        background-color: $background-footer;
+        height:3rem;
+        width: 11rem;
+        margin: 1rem;
+
     }
-    .projects__packet-two-desc{
-        height:auto;
-        width:100%;
+
+    .footer__email{
+        background-color: $background-footer;
+        color:$font-color-footer;
+        margin: 1rem;
+
     }
-    .projects__packet-three-image{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-three-desc{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-four-image{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-four-desc{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-five-image{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-five-desc{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-six-image{
-        height:auto;
-        width:100%;
-    }
-    .projects__packet-six-desc{
-        height:auto;
-        width:100%;
-    }
+
 }
