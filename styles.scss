@@ -37,7 +37,8 @@ nav{
 .content {
     margin:8%;
    order: 2px solid white;
-   
+   display:flex;
+   flex-direction: column;
    }
 
 

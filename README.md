@@ -43,3 +43,5 @@ plan for css
 questions to answer:
 -user agent stylesheet?? why is it not picking up my css?
 -clarify how to sewt up the page so its relative, 
+
+-how to space blocks out so they are not overlapping/relative? it all fits on the smallest mobile ut as soon as you go to just before tablet it all changes, vh/rem/%?
