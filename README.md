@@ -21,6 +21,14 @@ WRITE SCSS
 FRI PM          -3 HOURS
 FINISH SCSS     HAVE CHECKED OVER BY ROB AND ASK ANY QUESTIONS SO I HAVE AN UNDERSTANDING GOING INTO THE WEEKEND
 
+PLAN-
+SWAP OVER IMAGES SO ITS THE RIGHT COLOR
+MEDIA QUERY DESKTOP FIRST, IF I HAVE TIME AND THINGS NEED CHANGING FOR TABLET THEN DO SO BUT NOT A PRIORITY
+WORK ONE SECTION AT A TIME AND TAKE IT EASY
+
+
+
+
 SAT PM          -3 HOURS
 BONUS IF I FALL BEHIND // START ON ADVANCED
 
@@ -45,3 +53,4 @@ questions to answer:
 -clarify how to sewt up the page so its relative, 
 
 -how to space blocks out so they are not overlapping/relative? it all fits on the smallest mobile ut as soon as you go to just before tablet it all changes, vh/rem/%?
+
