@@ -31,10 +31,12 @@ nav{
 .content {
     margin:10%;
    order: 2px solid white;
-}
+   
+   }
+
 
 header{
-   height:40rem;
+   height:38rem;
    display:flex;
    flex-direction: column;
    flex-wrap: wrap;
@@ -45,29 +47,50 @@ header{
         font-weight: 500;
         font-size: 1.25rem;
         width: 100%;
-       
    }
 
     .header__intro{
         font-size: 4rem;
         font-weight:600;
         margin:5rem 0rem;
-        
     }
 
     .header__img{
         display:none;
     }
-        
 }
 
 
 .about{
+    height:80rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
     
-    .about__img{
+    .about__image-container{
         height:auto;
         width:100%;
+        display:flex;
+        justify-content: center;
     }
+    .about__img {
+        height:auto;
+        width:90%;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    
+    .about__content-top {
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+        font-weight:400;
+    }
+    .about__content-bottom {
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+        font-weight:400;
+    }
+
 }
 
 .projects{
@@ -121,11 +144,3 @@ header{
         width:100%;
     }
 }
-
-
-
-
-
-
-
-
