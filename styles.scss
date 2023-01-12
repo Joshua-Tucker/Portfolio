@@ -36,14 +36,12 @@ nav{
 
 .content {
     margin:8%;
-   order: 2px solid white;
-   display:flex;
-   flex-direction: column;
+    display:flex;
+    flex-direction: column;
    }
 
 
 header{
-   height:38rem;
    display:flex;
    flex-direction: column;
    flex-wrap: wrap;
@@ -69,7 +67,6 @@ header{
 
 
 .about{
-    height:70rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,13 +74,11 @@ header{
     font-size: $font-text;
 
     .about__image-container{
-        height:auto;
         width:100%;
         display:flex;
         justify-content: center;
     }
     .about__img {
-        height:auto;
         width:85%;
         margin: 2rem 0rem 3rem 0rem;
     }
@@ -92,6 +87,7 @@ header{
         line-height: $lineheight;
         font-weight:400;
         font-size: $font-text-small;
+        margin-bottom: 2rem;
     }
     .about__content-bottom {
         line-height: $lineheight;
@@ -103,14 +99,12 @@ header{
 }
 
 .technical{
-    height:45rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
 
     .technical__container{
-        
         line-height: $lineheight;
         text-align: center;
     }
@@ -136,21 +130,18 @@ header{
           "technical__spring technical__java technical__react"
           "technical__bem technical__scss technical__script-java"
           "technical__css technical__html technical__git";
-           
       }
       
 }
 
 .projects{
     margin-top: 3rem;
-    height:205rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
 
     .projects__image {
-        height:auto;
         width:100%;
         margin: 0.75rem 0rem;
     }
