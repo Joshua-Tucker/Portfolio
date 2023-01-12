@@ -100,14 +100,14 @@ header{
 }
 
 .technical{
-    height:60rem;
+    height:20rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
 
     .technical__container{
-        height:15rem;
+        
         line-height: $lineheight;
         text-align: center;
     }
@@ -117,12 +117,31 @@ header{
     }
     .technical__intro{
         font-size: $font-text-smallest;
-    
     }
+
+    .technical__container-logo {  
+        margin:3rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem 1rem;
+        grid-auto-flow: row;
+        width:90%;
+        justify-items: center;
+        align-items:center;
+        grid-template-areas:
+          "technical__spring technical__java technical__react"
+          "technical__bem technical__scss technical__script-java"
+          "technical__css technical__html technical__git";
+        
+       
+      }
+      
 }
 
 .projects{
-
+    margin:40rem 0rem;
+    height:50rem;
     .projects__packet-one-image{
         height:auto;
         width:100%;
