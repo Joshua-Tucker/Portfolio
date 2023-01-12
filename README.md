@@ -37,3 +37,9 @@ plan for css
 -start with mobile view
 -start from the top and do one at a time 
 -6 sessions so an average of 1 hour on each
+
+
+
+questions to answer:
+-user agent stylesheet?? why is it not picking up my css?
+-clarify how to sewt up the page so its relative, 

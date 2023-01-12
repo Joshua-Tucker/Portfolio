@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'); 
-$background-color: #E5E5E5;
+$background-color: #3E3636;
 $background-footer:#F5EDED;
-$font-color: #fafafa; /*background and font are meant to be the same*/
+$font-color: #E5E5E5; /*background and font are meant to be the same*/
 $font:'Inter', sans-serif;
 
 *{
@@ -9,44 +9,121 @@ font-family: $font;
 margin:0;
 padding:0;
 box-sizing: border-box;
+background-color:$background-color;
+color:$font-color
+}
+
+.content__container {
+    border: 2px solid white;
+    margin:5%;
 }
 
 nav{
-    height: 5vh;
+
+    height: 3rem;
     width:auto;
-}
-.nav__container{
+
+   .nav__container{
     display:none;
+    }
+}
+
+.content {
+    margin:10%;
+   order: 2px solid white;
 }
 
 header{
-    margin:5%;
-    height:30rem;
-    width:auto;
-    
-    .header__container {
-        display:flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    
-    
-        .header__title {
-            font-weight: 500;
-            font-size: 1.25rem;
-            
-        }
-    
-        .header__intro{
-            font-size: 4rem;
-            font-weight:600;
-        }
+   height:40rem;
+   display:flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   width:100%;
+
+   .header__title {
+        font-weight: 500;
+        font-size: 1.25rem;
+        width: 100%;
+       
+   }
+
+    .header__intro{
+        font-size: 4rem;
+        font-weight:600;
+        margin:5rem 0rem;
         
-        .header__img{
-            display:none;
-        }
+    }
+
+    .header__img{
+        display:none;
+    }
+        
+}
+
+
+.about{
+    
+    .about__img{
+        height:auto;
+        width:100%;
     }
 }
+
+.projects{
+
+    .projects__packet-one-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-one-desc{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-two-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-two-desc{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-three-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-three-desc{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-four-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-four-desc{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-five-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-five-desc{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-six-image{
+        height:auto;
+        width:100%;
+    }
+    .projects__packet-six-desc{
+        height:auto;
+        width:100%;
+    }
+}
+
+
+
 
 
 
