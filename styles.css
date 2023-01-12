@@ -23,7 +23,7 @@ nav .nav__container {
 }
 
 .content {
-  margin: 10%;
+  margin: 8%;
   order: 2px solid white;
 }
 
@@ -50,11 +50,12 @@ header .header__img {
 }
 
 .about {
-  height: 80rem;
+  height: 70rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  font-size: 1.125rem;
 }
 .about .about__image-container {
   height: auto;
@@ -64,18 +65,38 @@ header .header__img {
 }
 .about .about__img {
   height: auto;
-  width: 90%;
-  margin: 2rem 0rem 2rem 0rem;
+  width: 85%;
+  margin: 2rem 0rem 3rem 0rem;
 }
 .about .about__content-top {
   line-height: 1.8rem;
-  margin-bottom: 2rem;
   font-weight: 400;
+  font-size: 1rem;
 }
 .about .about__content-bottom {
   line-height: 1.8rem;
   margin-bottom: 2rem;
   font-weight: 400;
+  font-size: 1rem;
+}
+
+.technical {
+  height: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.technical .technical__container {
+  height: 15rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+.technical .technical__title {
+  margin: 4rem 0rem 3rem 0rem;
+}
+.technical .technical__intro {
+  font-size: 0.9rem;
 }
 
 .projects .projects__packet-one-image {

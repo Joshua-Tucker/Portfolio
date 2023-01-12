@@ -3,6 +3,10 @@ $background-color: #3E3636;
 $background-footer:#F5EDED;
 $font-color: #E5E5E5; /*background and font are meant to be the same*/
 $font:'Inter', sans-serif;
+$lineheight: 1.8rem;
+$font-text:1.125rem;
+$font-text-small:1rem;
+$font-text-smallest:0.9rem;
 
 *{
 font-family: $font;
@@ -29,7 +33,7 @@ nav{
 }
 
 .content {
-    margin:10%;
+    margin:8%;
    order: 2px solid white;
    
    }
@@ -62,12 +66,13 @@ header{
 
 
 .about{
-    height:80rem;
+    height:70rem;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
-    
+    font-size: $font-text;
+
     .about__image-container{
         height:auto;
         width:100%;
@@ -76,21 +81,44 @@ header{
     }
     .about__img {
         height:auto;
-        width:90%;
-        margin: 2rem 0rem 2rem 0rem;
+        width:85%;
+        margin: 2rem 0rem 3rem 0rem;
     }
     
     .about__content-top {
-        line-height: 1.8rem;
-        margin-bottom: 2rem;
+        line-height: $lineheight;
         font-weight:400;
+        font-size: $font-text-small;
     }
     .about__content-bottom {
-        line-height: 1.8rem;
+        line-height: $lineheight;
         margin-bottom: 2rem;
         font-weight:400;
+        font-size: $font-text-small;
     }
 
+}
+
+.technical{
+    height:60rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+
+    .technical__container{
+        height:15rem;
+        line-height: $lineheight;
+        text-align: center;
+    }
+
+    .technical__title{
+        margin:4rem 0rem 3rem 0rem;
+    }
+    .technical__intro{
+        font-size: $font-text-smallest;
+    
+    }
 }
 
 .projects{
