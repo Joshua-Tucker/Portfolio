@@ -28,8 +28,8 @@ header{
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: flex-start;
-    }
+        align-items: center;
+    
     
         .header__title {
             font-weight: 500;
@@ -45,7 +45,10 @@ header{
         .header__img{
             display:none;
         }
-    
-        
+    }
 }
+
+
+
+
 

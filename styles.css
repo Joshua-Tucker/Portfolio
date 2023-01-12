@@ -25,16 +25,16 @@ header .header__container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
-header .header__title {
+header .header__container .header__title {
   font-weight: 500;
   font-size: 1.25rem;
 }
-header .header__intro {
+header .header__container .header__intro {
   font-size: 4rem;
   font-weight: 600;
 }
-header .header__img {
+header .header__container .header__img {
   display: none;
 }/*# sourceMappingURL=styles.css.map */
