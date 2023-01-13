@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'); 
-$background-color: #3E3636;
-$background-footer:#F5EDED;
-$font-color: #E5E5E5; /*background and font are meant to be the same*/
+$background-color: #E5E5E5;
+$background-footer:#001427;
+$font-color:#001427 ; /*background and font are meant to be the same*/
 $font:'Inter', sans-serif;
 $lineheight: 1.8rem;
 $font-title-desktop: 3rem;
@@ -9,7 +9,7 @@ $font-desktop-header: 2rem;
 $font-text:1.125rem;
 $font-text-small:1rem;
 $font-text-smallest:0.9rem;
-$font-color-footer: #D72323;
+$font-color-footer: #E5E5E5;
 
 
 *{
@@ -163,7 +163,7 @@ header{
     .footer__icons{
         background-color: $background-footer;
         height:3rem;
-        width: 11rem;
+        width: 10rem;
         margin: 1rem;
 
     }
