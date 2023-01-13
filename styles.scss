@@ -4,6 +4,8 @@ $background-footer:#F5EDED;
 $font-color: #E5E5E5; /*background and font are meant to be the same*/
 $font:'Inter', sans-serif;
 $lineheight: 1.8rem;
+$font-title-desktop: 3rem;
+$font-desktop-header: 2rem;
 $font-text:1.125rem;
 $font-text-small:1rem;
 $font-text-smallest:0.9rem;
@@ -19,10 +21,6 @@ background-color:$background-color;
 color:$font-color
 }
 
-.content__container {
-    margin:5%;
-}
-
 nav{
     height: 3rem;
     width:auto;
@@ -33,13 +31,12 @@ nav{
 }
 
 .content {
-    margin:8%;
+    margin:5%;
     display:flex;
     flex-direction: column;
    }
 header{
    display:flex;
-   flex-direction: column;
    flex-wrap: wrap;
    align-items: center;
    width:100%;
@@ -56,7 +53,7 @@ header{
         margin:5rem 0rem;
     }
 
-    .header__img{
+    .header__container{
         display:none;
     }
 }
@@ -208,6 +205,28 @@ header{
             font-weight: bolder;
         }
     }
+    .header{
+        display:flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+      
+        .header__text {
+            width:40%;
+            margin: 5%;
+            
+            .header__title{
+                font-size: $font-desktop-header;
+
+                .emoji{
+                    margin-right: 1rem;
+                }
+            }
+        }
+        .header__container{
+           display:flex;
+           width:40%;
+        }
+    }
     .about{
 
         margin:0rem;
@@ -220,12 +239,11 @@ header{
             "image title title"
             "image text-1 text-1"
             "image text-2 text-2"; 
-        
-    
-        .about__title {
+
+            .about__title {
             grid-area: title;
             margin-top:7rem;
-            font-size: 3rem;
+            font-size: $font-title-desktop;
         }
         .about__image-container{ 
             grid-area: image;
@@ -237,5 +255,7 @@ header{
             grid-area: text-2;
             margin-bottom:7rem; 
         }
-}
+    }
+
+ 
 }

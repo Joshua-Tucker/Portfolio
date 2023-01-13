@@ -9,10 +9,6 @@
   color: #E5E5E5;
 }
 
-.content__container {
-  margin: 5%;
-}
-
 nav {
   height: 3rem;
   width: auto;
@@ -22,14 +18,13 @@ nav .nav__container {
 }
 
 .content {
-  margin: 8%;
+  margin: 5%;
   display: flex;
   flex-direction: column;
 }
 
 header {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -44,7 +39,7 @@ header .header__intro {
   font-weight: 600;
   margin: 5rem 0rem;
 }
-header .header__img {
+header .header__container {
   display: none;
 }
 
@@ -170,6 +165,25 @@ header .header__img {
   nav .nav__name {
     margin: 2rem;
     font-weight: bolder;
+  }
+  .header {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+  }
+  .header .header__text {
+    width: 40%;
+    margin: 5%;
+  }
+  .header .header__text .header__title {
+    font-size: 2rem;
+  }
+  .header .header__text .header__title .emoji {
+    margin-right: 1rem;
+  }
+  .header .header__container {
+    display: flex;
+    width: 40%;
   }
   .about {
     margin: 0rem;
