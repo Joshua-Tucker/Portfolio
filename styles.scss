@@ -228,7 +228,6 @@ header{
         }
     }
     .about{
-
         margin:0rem;
         display: grid; 
         grid-auto-rows: 1fr; 
@@ -256,6 +255,27 @@ header{
             margin-bottom:7rem; 
         }
     }
+    .technical{
+        .technical__container{
+            display:flex;
+            flex-direction:column;
+            align-items: center;
 
+        }
+        .technical__title{
+            font-size: $font-title-desktop;
+            margin-top:6rem;
+        }
+
+        .technical__container-logo{
+            display:flex;
+            justify-content: space-evenly;
+            margin: 6rem 0rem;
+        }
+        .technical__intro{
+            width:60%;
+        }
+     
+    }
  
 }

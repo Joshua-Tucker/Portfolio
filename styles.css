@@ -209,4 +209,21 @@ header .header__container {
     grid-area: text-2;
     margin-bottom: 7rem;
   }
+  .technical .technical__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .technical .technical__title {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+  .technical .technical__container-logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6rem 0rem;
+  }
+  .technical .technical__intro {
+    width: 60%;
+  }
 }/*# sourceMappingURL=styles.css.map */
