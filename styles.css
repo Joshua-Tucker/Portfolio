@@ -226,4 +226,28 @@ header .header__container {
   .technical .technical__intro {
     width: 60%;
   }
+  .projects .projects__title {
+    font-size: 3rem;
+    margin: 3rem;
+  }
+  .projects .projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4rem;
+    justify-items: center;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .footer__email {
+    margin: 8%;
+  }
+  .footer .footer__icons {
+    margin: 8%;
+  }
 }/*# sourceMappingURL=styles.css.map */

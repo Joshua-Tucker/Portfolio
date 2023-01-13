@@ -147,7 +147,6 @@ header{
     .projects__packet-img {
         width:100%;
         height:auto;
-
     }
 }
 
@@ -277,5 +276,34 @@ header{
         }
      
     }
- 
+    .projects{
+        .projects__title{
+            font-size:$font-title-desktop;
+            margin: 3rem;
+
+        }
+        .projects__container{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 4rem;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+    .footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center ;
+
+        .footer__email{
+            margin:8%;
+        }
+        .footer__icons{
+            margin:8%;
+        }
+
+
+    }
 }
