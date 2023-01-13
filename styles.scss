@@ -20,12 +20,10 @@ color:$font-color
 }
 
 .content__container {
-    border: 2px solid white;
     margin:5%;
 }
 
 nav{
-
     height: 3rem;
     width:auto;
 
@@ -39,8 +37,6 @@ nav{
     display:flex;
     flex-direction: column;
    }
-
-
 header{
    display:flex;
    flex-direction: column;
@@ -64,7 +60,6 @@ header{
         display:none;
     }
 }
-
 
 .about{
     display:flex;
@@ -187,8 +182,34 @@ header{
 }
 
 @media screen and (min-width:1440px){
+   
+    nav{
+       .nav__container {
+        margin:5%;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        }
+
+        .nav__button{
+            height: 2.5rem;
+            width: 8rem;
+            border: none;
+        }
+
+        .nav__contact { 
+            border:0.1rem solid $font-color;
+            border-radius: 0.5rem;
+            font-weight: 600;
+        }
+
+        .nav__name{
+            margin:2rem;
+            font-weight: bolder;
+        }
+    }
     .about{
-      
+
         margin:0rem;
         display: grid; 
         grid-auto-rows: 1fr; 
@@ -199,25 +220,22 @@ header{
             "image title title"
             "image text-1 text-1"
             "image text-2 text-2"; 
-        }
-    
-    .about__title {
-         grid-area: title;
-         margin-top:7rem;
-         font-size: 3rem;
-    }
-    .about__image-container{ 
-        grid-area: image;
-         }
-    .about__content-top { 
-        grid-area: text-1;
-        }
-    .about__content-bottom {
-        grid-area: text-2;
-        margin-bottom:7rem; 
-    }
-    
-   
-    
         
+    
+        .about__title {
+            grid-area: title;
+            margin-top:7rem;
+            font-size: 3rem;
+        }
+        .about__image-container{ 
+            grid-area: image;
+            }
+        .about__content-top { 
+            grid-area: text-1;
+            }
+        .about__content-bottom {
+            grid-area: text-2;
+            margin-bottom:7rem; 
+        }
+}
 }
