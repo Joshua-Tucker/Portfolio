@@ -23,9 +23,6 @@ FINISH SCSS     HAVE CHECKED OVER BY ROB AND ASK ANY QUESTIONS SO I HAVE AN UNDE
 
 **NOTES:ADDED DIV FOR HEADER TO DIVIDE TEXT AND IMAGE, CHECK MOBILE VERSION AND MAKE AMENDEMENTS**
 
-**Lighthouse results 92P/100A/92BP/100SEO mobile   99P/100A/92BP/100SEO desktop**
-
-
 
 PLAN-
 SWAP OVER IMAGES SO ITS THE RIGHT COLOR--done
@@ -60,11 +57,24 @@ plan for css
 -start from the top and do one at a time 
 -6 sessions so an average of 1 hour on each
 
+FINAL NOTES
 
+All in all i feel like ive done well with the site and now have a greater understanding on html and cscs. I didnt use time over the weekend to go to the advanced site which im dissapointed about but i think for the first week i needed to take time away from the screen ready for javascript. Annoyingly i did mishear about timeframe on tuesday as i thought we had the whole day instead of just a half.
+
+It was good to write a plan and have a structure before hand and to alot time frames for each thing i did.
+
+going forward i think the main thing i would do differently is when having a problem to alot a time frame and if i dont get it just move onto something else so its not a manic rush at the end
+
+
+**Lighthouse results 92P/100A/92BP/100SEO mobile   99P/100A/92BP/100SEO desktop**
 
 questions to answer:
 -user agent stylesheet?? why is it not picking up my css?
 -clarify how to sewt up the page so its relative, 
 
 -how to space blocks out so they are not overlapping/relative? it all fits on the smallest mobile ut as soon as you go to just before tablet it all changes, vh/rem/%?
+
+
+
+
 
