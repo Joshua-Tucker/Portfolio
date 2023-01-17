@@ -338,12 +338,18 @@ header{
          align-items: center;
          flex-wrap: nowrap;
          }
-         .nav__button{
-             height: 2.5rem;
-             width: 6rem;
-             border: none;
-             justify-content: flex-end;
+        .nav__button{
+                height: 2.5rem;
+                width: 6rem;
+                border: none;
+                justify-content: flex-end;
          }
+         .nav__button:hover{
+            background-color:$background-third;
+            border:0.1rem solid $background-third;
+            border-radius: 0.5rem;
+         }
+
          .nav__contact { 
             border:0.1rem solid $font-color;
             border-radius: 0.5rem;
