@@ -251,6 +251,7 @@ header{
             "image title title"; 
 
         .about__content-container{
+            margin: 1rem;
             grid-area: title;
             display: flex;
             flex-direction: column;
