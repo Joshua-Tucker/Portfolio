@@ -158,25 +158,25 @@ header {
     width: 100%;
     height: auto;
   }
-
 }
 
-.calculator__image-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width:100%;
-    height:auto;
-  }
+.calculator__image-container {
+  display: flex;
+  // flex-direction: row;
+  // flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
 
-  .calculator__image-dark{
-    width:50%;
-
-  }
-  .calculator__image-light{
-    width:50%;
-
-  }
+.calculator__image-dark {
+  width: 50%;
+}
+.calculator__image-light {
+  width: 50%;
+}
+.calculator__link{
+  
+}
 
 .footer {
   height: 12rem;
