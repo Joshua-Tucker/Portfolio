@@ -117,11 +117,12 @@ header .header__container {
 .projects {
   margin-top: 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 50vh;
   font-size: 1.125rem;
 }
 .projects .projects__container {
@@ -132,31 +133,13 @@ header .header__container {
   height: auto;
   width: 100%;
 }
-.projects .projects__packet-img {
-  width: 100%;
-  height: auto;
-}
-
-.calculator__image-container {
-  display: flex;
-  width: 40vh;
-  height: 33vh;
-}
-
-.calculator__image-dark {
-  width: 50%;
-}
-
-.calculator__image-light {
-  width: 50%;
-}
 
 .project-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 4vh;
+  min-height: 10vh;
 }
 
 .project-title {
@@ -164,14 +147,11 @@ header .header__container {
   font-size: x-large;
 }
 
-.project-text {
-  margin: 1vh 0vh;
-}
-
 .project-button-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 2vh;
 }
 
 .project-code-link {
@@ -182,9 +162,9 @@ header .header__container {
   border: 2px solid #001427;
   border-radius: 1vh;
   padding: 1.2vh;
-  width: 12vw;
-  margin: 2vh 2vh 0vh 0vh;
+  width: 18vw;
   background-color: #e3f6f5;
+  margin-right: 2vh;
 }
 
 .project-code-link-text {
@@ -198,17 +178,29 @@ header .header__container {
   border: 2px solid #001427;
   border-radius: 1vh;
   padding: 1.2vh;
-  width: 12vw;
-  margin: 2vh 2vh 0vh 0vh;
+  width: 24vw;
 }
 
 .project__image-container {
   display: flex;
-  width: 40vh;
-  height: 33vh;
+  width: 100%;
+  height: 35vh;
+  margin-bottom: 2vh;
+}
+
+.calculator__image-dark {
+  width: 50%;
+}
+
+.calculator__image-light {
+  width: 50%;
 }
 
 .connect-four-image {
+  width: 100%;
+}
+
+.punk-image {
   width: 100%;
 }
 
@@ -468,9 +460,19 @@ header .header__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calculator connect4" "punk ." ". .";
     grid-gap: 4rem;
     justify-items: center;
     align-items: center;
+  }
+  .projects .calculator {
+    grid-area: calculator;
+  }
+  .projects .connect-four {
+    grid-area: connect4;
+  }
+  .projects .punk {
+    grid-area: punk;
   }
   .footer {
     display: flex;
